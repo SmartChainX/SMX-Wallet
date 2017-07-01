@@ -2,7 +2,7 @@ const Q = require('bluebird');
 const EventEmitter = require('events').EventEmitter;
 const got = require('got');
 const SocketBase = require('./base');
-
+ 
 const STATE = SocketBase.STATE;
 
 const Web3SocketBase = require('./web3Base');

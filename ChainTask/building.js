@@ -4,7 +4,7 @@ const builder = require('chainx-builder');
 
 const del = require('del');
 
-const exec = require('child_process').exec;
+const exec = require('child_process').exec; 
 
 const fs = require('fs');
 

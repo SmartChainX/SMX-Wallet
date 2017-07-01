@@ -1,19 +1,22 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+# Compiled Object files
+*.slo
+*.lo
+*.o
 
-# Other files and folders
-.settings/
+# Compiled Dynamic libraries
+*.so
+*.dylib
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Compiled Static libraries
+*.lai
+*.la
+*.a
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# VS stuff
+build
+ipch
+*.sdf
+*.opensdf
+*.suo
+
+*.user

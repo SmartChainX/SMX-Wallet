@@ -1,4 +1,4 @@
- Add current directory to plugin path
+ Add current directory to plugin path 
 
 !addplugindir .\
 

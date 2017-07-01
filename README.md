@@ -35,7 +35,7 @@ Now you're ready to initialise smx for development:
 For development we start the interface with a Meteor server for autoreload etc.
 *Start the interface in a separate terminal window:*
 
-    $ cd mist/interface && meteor --no-release-check
+    $ cd smx/interface && meteor --no-release-check
 
 In the original window you can then start Giga.chx with:
 

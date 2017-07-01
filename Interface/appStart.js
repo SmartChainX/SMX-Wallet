@@ -1,16 +1,16 @@
 /**
 
-The init function of Mist
+The init function of smx
 
 
 
-@method mistInit
+@method smxInit
 
 */
 
 mistInit = function () {
 
-    console.info('Initialise Mist Interface');
+    console.info('Initialise SMX Interface');
 
 
 
@@ -42,9 +42,7 @@ mistInit = function () {
 
                 _id: 'browser',
 
-                url: 'https://ethereum.org',
-
-                redirect: 'https://ethereum.org',
+           
 
                 position: 0
 
@@ -76,11 +74,7 @@ mistInit = function () {
 
             {
 
-                $set: {
-
-                    url: 'https://wallet.ethereum.org',
-
-                    redirect: 'https://wallet.ethereum.org',
+                $set: 
 
                     position: 1,
 

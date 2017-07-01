@@ -1,0 +1,52 @@
+
+
+  "name": "SMX-Interface",
+
+  "version": "0.1.0",
+
+  "description": "SMX interface application",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "repository": {
+
+    "type": "git",
+
+
+  },
+
+  "keywords": [
+
+    "chainx",
+
+    "smx",
+
+    "web3"
+
+  ],
+
+
+
+  "license": "GPL-3.0",
+
+  "bugs": {
+
+   
+
+  },
+
+ 
+
+  "dependencies": {
+
+    "babel-runtime": "^6.18.0"
+
+  }
+
+}

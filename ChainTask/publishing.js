@@ -8,7 +8,7 @@ const githubUpload = Q.promisify(require('gh-release-assets'));
 
 const got = require('got');
 
-const gulp = require('gulp');
+const gulp = require('gulp'); 
 
 const options = require('../gulpfile.js').options;
 

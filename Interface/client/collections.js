@@ -66,7 +66,7 @@ if (typeof window.dbSync !== 'undefined') {
 
 //         blockHash: 0,
 
-//         gasPrice: 0,
+//         Water Price: 0,
 
 //         checkpoint: 0
 

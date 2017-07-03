@@ -1,6 +1,6 @@
 /**
 
-@module MistAPI Backend
+@module SMXAPI Backend
 
 */
 

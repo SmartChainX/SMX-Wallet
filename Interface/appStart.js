@@ -36,7 +36,7 @@ mistInit = function () {
 
             console.debug('Insert tabs');
 
-
+             ChxAccounts.init();
 
             Tabs.insert({
 

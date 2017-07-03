@@ -7,6 +7,7 @@ const Q = require('bluebird');
 const log = require('../../utils/logger').create('method');
 
 const Windows = require('../../windows');
+const Linux = require('../../linux');
 
 const db = require('../../db');
 

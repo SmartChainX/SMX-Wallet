@@ -47,6 +47,7 @@ test['account balances'] = function* () {
 test['deposit into account'] = function* () {
     const web3 = this.web3;
     const client = this.client;
+    const appBalances = this.getUiAccountBalances();
 
     const accounts = web3.chx.accounts;
 

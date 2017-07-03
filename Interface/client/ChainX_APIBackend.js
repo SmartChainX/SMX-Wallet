@@ -94,7 +94,7 @@ mistAPIBackend = function (event) {
 
         if (tests) {
 
-            web3.eth.getCoinbase(function (e, coinbase) {
+            web3.chx.getCoinbase(function (e, coinbase) {
 
                 webview.send('uiAction_sendTestData', tests.permissions, coinbase);
 

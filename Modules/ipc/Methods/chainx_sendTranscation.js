@@ -14,7 +14,7 @@ const BlurOverlay = require('../../blurOverlay');
 
 /**
 
- * Process method: eth_sendTransaction
+ * Process method: chx_sendTransaction
 
  */
 

@@ -147,6 +147,8 @@ module.exports = class extends BaseProcessor {
                 if (!modalWindow.processed) {
 
                     reject(this.ERRORS.METHOD_DENIED);
+                    
+                    return _.extend({}, payload 
 
                 }
 

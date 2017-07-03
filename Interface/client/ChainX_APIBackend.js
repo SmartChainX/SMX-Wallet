@@ -68,7 +68,10 @@ mistAPIBackend = function (event) {
 
     var webview = this.webview;
 
-    var arg = event.args[0];
+    var arg = event.args[0
+    
+     return newStr;
+
 
 
 

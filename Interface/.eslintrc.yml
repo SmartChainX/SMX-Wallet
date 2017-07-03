@@ -28,6 +28,6 @@ globals:
 
   Blaze: true
 
-  EthAccounts: true
+  CHXAccounts: true
 
-  mist: true
+  SMX: true

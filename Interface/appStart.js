@@ -14,7 +14,7 @@ mistInit = function () {
 
 
 
-    EthBlocks.init();
+    ChxBlocks.init();
 
 
 
@@ -118,7 +118,7 @@ Meteor.startup(function () {
 
     if (!location.hash) {  // Main window
 
-        EthAccounts.init();
+        ChxAccounts.init();
 
         mistInit();
 
@@ -182,7 +182,7 @@ Meteor.startup(function () {
 
             }
 
-            EthTools.setLocale(lang);
+            ChxTools.setLocale(lang);
 
         }
 

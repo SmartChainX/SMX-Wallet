@@ -1,4 +1,4 @@
-env:  # don't warn about no-def meteor keywords
+env:  # Don't warn about no-def meteor keywords
 
   meteor: true
 

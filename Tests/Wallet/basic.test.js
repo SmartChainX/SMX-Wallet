@@ -48,11 +48,11 @@ test['deposit into account'] = function* () {
     const web3 = this.web3;
     const client = this.client;
 
-    const accounts = web3.eth.accounts;
+    const accounts = web3.chx.accounts;
 
     yield _createNewAccount.call(this);
 
-    const newAccount = _.difference(web3.eth.accounts, accounts)[0];
+    const newAccount = _.difference(web3.chx.accounts, accounts)[0];
 
     yield this.openAccountInUi(newAccount);
 

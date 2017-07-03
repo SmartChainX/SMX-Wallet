@@ -192,7 +192,7 @@ module.exports = class BaseProcessor {
 
         // prevent dapps from acccesing admin endpoints
 
-        if (!/^eth_|^shh_|^net_|^web3_|^db_/.test(payload.method)) {
+        if (!/^chx_|^shh_|^net_|^web3_|^db_/.test(payload.method)) {
 
             delete payload.result;
 
